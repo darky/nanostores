@@ -1,5 +1,5 @@
 {
-  "name": "nanostores",
+  "name": "nanostores-cjs",
   "version": "0.7.1",
   "description": "A tiny (266 bytes) state manager for React/Preact/Vue/Svelte with many atomic tree-shakable stores",
   "keywords": [
@@ -20,12 +20,12 @@
   "license": "MIT",
   "repository": "nanostores/nanostores",
   "sideEffects": false,
-  "type": "module",
+  "main": "./dist/index.js",
   "types": "./index.d.ts",
-  "exports": {
-    ".": "./index.js",
-    "./package.json": "./package.json"
-  },
+  "files": [
+    "./dist/**/*.js",
+    "**/*.d.ts"
+  ],
   "engines": {
     "node": "^14.0.0 || ^16.0.0 || >=18.0.0"
   },
