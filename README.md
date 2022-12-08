@@ -1,5 +1,7 @@
 # Nano Stores
 
+**CommonJS mirror of [nanostores](https://github.com/nanostores/nanostores)**
+
 <img align="right" width="92" height="92" title="Nano Stores logo"
      src="https://nanostores.github.io/nanostores/logo.svg">
 
